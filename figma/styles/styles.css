@@ -11,13 +11,6 @@ html {
     line-height: 40px;
 }
 
-body {
-    display: grid;
-    width: 1920px;
-    height: 5593px;
-    grid-template-rows: 1519px 1500px 1020px 800px 672px;
-}
-
 .header,
 .second-line,
 .fourth-line {
@@ -106,6 +99,15 @@ body {
 
 .descr-text {
     font-size: 24px;
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #05FF00;
 }
 
 .button {
